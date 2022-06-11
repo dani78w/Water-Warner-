@@ -2,7 +2,10 @@
 
 /* ------- CARACTERISTICAS UNIVERSALES ------- */
 
-            body{font-family: 'Radio Canada', sans-serif;}
+            body{
+                font-family: 'Radio Canada', sans-serif;
+                overflow-x: hidden;
+            }
 
             /* ------- FOOTER EN MODO PC Y TABLET ------- */
             .footer{
@@ -167,7 +170,7 @@ body{
         background-image:url(Media/Wallpaper.jpg);
         background-repeat: no-repeat;
         background-size:100vw 80vh;
-    
+        
         padding: 0px;
         margin: 0px;
     }
