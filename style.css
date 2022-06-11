@@ -166,7 +166,7 @@ body{
         display: grid;
         background-image:url(Media/Wallpaper.jpg);
         background-repeat: no-repeat;
-        background-size:100vw 100vh;
+        background-size:100vw 80vh;
     
         padding: 0px;
         margin: 0px;
@@ -174,9 +174,9 @@ body{
     .content{
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 50vh 50vh;
+        grid-template-rows: 40vh 40vh;
         justify-items: center;
-        height:100vh;
+        height:80vh;
         width: 100vw;
         
         justify-content: center;
@@ -223,7 +223,7 @@ body{
     .izqInicio{
         display: grid;
         grid-column:1;  grid-row:2;
-        height:50vh ;
+        height:40vh ;
         width: 100%;
 
         background: #FFC6C6;
@@ -234,7 +234,7 @@ body{
     .derInicio{
         display: grid;
         grid-column:1;  grid-row:1;
-        height:50vh ;
+        height:40vh ;
         width: 100%;
     
         
