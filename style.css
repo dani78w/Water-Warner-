@@ -97,19 +97,18 @@ body{
     
     
 }
-.a , .b{
-    display: grid;
-    mix-blend-mode: exclusion;
-    z-index: 4;
-    
-}
-
-.a{
-    grid-column:1;grid-row:1;   margin-top: 55px;margin-left: -55px;
-}
-.b{
-    grid-column:1;grid-row:2;   margin-top: -55px;margin-left: 55px;
-}
+        .a , .b{
+            display: grid;
+            mix-blend-mode: exclusion;
+            z-index: 4;
+            
+        }
+        .a{
+            grid-column:1;grid-row:1;   margin-top: 55px;margin-left: -55px;
+        }
+        .b{
+            grid-column:1;grid-row:2;   margin-top: -55px;margin-left: 55px;
+        }
 
 .izqInicio{
     display: grid;
@@ -183,27 +182,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .izqInicio{
-        display: grid;
-        grid-column:1;  grid-row:2;
-        height:50vh ;
-        width: 100%;
-
-        background: #FFC6C6;
-        
-        mix-blend-mode: exclusion;
-        
-    }
-    .derInicio{
-        display: grid;
-        grid-column:1;  grid-row:1;
-        height:50vh ;
-        width: 100%;
     
-        background: #00ffb3;
-        mix-blend-mode: exclusion;
-        
-    }
     .centInicio{
         display: grid;
         grid-column: 1; grid-row-start:1; grid-row-end:3;
@@ -216,7 +195,7 @@ body{
     
         height:350px;
         width: 230px;
-        background-color: black;
+        
         mix-blend-mode: exclusion;
         transform: rotate(0deg);
         
@@ -235,12 +214,45 @@ body{
         height: 120px;
         
     }
-    
     .a{
         grid-column:1;grid-row:1;   margin-top: 125px;margin-left: -25px;
     }
     .b{
         grid-column:1;grid-row:2;   margin-top: -125px;margin-left: 25px;
+    }
+    .izqInicio{
+        display: grid;
+        grid-column:1;  grid-row:2;
+        height:50vh ;
+        width: 100%;
+
+        background: #FFC6C6;
+        
+        mix-blend-mode: exclusion;
+        
+    }
+    .derInicio{
+        display: grid;
+        grid-column:1;  grid-row:1;
+        height:50vh ;
+        width: 100%;
+    
+        
+        mix-blend-mode: exclusion;
+        
+    }
+    #temperatura , #luz {
+        display: grid;
+        grid-column:1; grid-row: 1;
+        color: rgb(0, 0, 0);
+        z-index: 1;
+    
+        align-items: center;
+        justify-self: center;
+        font-size:15vw;
+    }
+    #luz{
+        color: rgb(255, 255, 255);
     }
     .footer{
         display: none;
