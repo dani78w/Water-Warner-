@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
-body{font-family: 'Radio Canada', sans-serif;}
+
+/* ------- CARACTERISTICAS UNIVERSALES ------- */
+
+            body{font-family: 'Radio Canada', sans-serif;}
+
+            /* ------- FOOTER EN MODO PC Y TABLET ------- */
+            .footer{
+                display:grid;grid-template-columns: 30px 145px auto 225px 180px 30px;
+                grid-column-start: 1;grid-column-end: 4;  grid-row: 4;
+                background-color: black;
+                height: 25px;
+                width: 100%;
+                position:fixed ;bottom: 0px;
+                color:white;
+                z-index: 5;
+            }
+            .footer span{
+                display:grid;
+                text-align: left; align-self: center;
+                font-size: 10px;
+            }
+            a:link, a:visited, a:active {
+                text-decoration:none;
+                color: rgb(71, 89, 255);
+            }
+            /*--------- FIN FOOTER EN PC Y TABLET ----------  */
+
+/* --------------------- FIN  --------------------- */
+
+
+
+
+
+
+
+/* ------- CARACTERISTICAS SOLO PC ------- */
 @media only screen and (min-width:660px){
 body{
     display: grid;
@@ -27,32 +62,16 @@ body{
     background: #FFC6C6;
     margin-right: -120px;
     mix-blend-mode: exclusion;
+}
+
+}
+/* --------------------- FIN PC  --------------------- */
 
 
 
-    
-}
-.footer{
-    display:grid;grid-template-columns: 30px 145px auto 225px 180px 30px;
-    grid-column-start: 1;grid-column-end: 4;  grid-row: 4;
-    background-color: black;
-    height: 25px;
-    width: 100%;
-    position:fixed ;bottom: 0px;
-    color:white;
-    z-index: 5;
-}
-.footer span{
-    display:grid;
-    text-align: left; align-self: center;
-    font-size: 10px;
-    
-}
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color: rgb(71, 89, 255);
-}
-}
+
+
+/* ---------- CARACTERISTICAS SOLO MOVIL ------------- */
 @media only screen and (max-width:660px){
     body{
         display: grid;
@@ -86,3 +105,4 @@ a:link, a:visited, a:active {
         display: none;
     }
 }
+/* ------------------ FIN SOLO MOVIL ------------------ */
