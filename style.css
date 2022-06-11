@@ -25,6 +25,10 @@
                 color: rgb(71, 89, 255);
             }
             /*--------- FIN FOOTER EN PC Y TABLET ----------  */
+            @keyframes centro {
+                from{transform: rotate(0deg);}
+                to{transform: rotate(3600deg);}
+            }
 
 /* --------------------- FIN  --------------------- */
 
@@ -71,10 +75,7 @@ body{
 
 }
 
-@keyframes centro {
-    from{transform: rotate(0deg);margin-top: -20px;}
-    to{transform: rotate(3600deg);margin-top: 20px;}
-}
+
 .centInicio{
     display: grid;
     grid-column-start:1; grid-column-end:3;  grid-row-start:1; grid-row-end:3; 
@@ -226,6 +227,20 @@ body{
         animation-timing-function: cubic-bezier(0.66, 0.65, 0.26, 0.27);
         
         
+    }
+    .a , .b{
+        display: grid;
+        mix-blend-mode: exclusion;
+        z-index: 4;
+        height: 120px;
+        
+    }
+    
+    .a{
+        grid-column:1;grid-row:1;   margin-top: 125px;margin-left: -25px;
+    }
+    .b{
+        grid-column:1;grid-row:2;   margin-top: -125px;margin-left: 25px;
     }
     .footer{
         display: none;
