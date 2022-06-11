@@ -173,21 +173,58 @@ body{
     }
     .content{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100vw;
         grid-template-rows: 50vh 50vh;
-        justify-items: left;
-        height:100vw 100vh;
-    
+        justify-items: center;
+        height:100vh;
+        width: 100vw;
+        
+        justify-content: center;
+        align-items: center;
     }
     .izqInicio{
         display: grid;
         grid-column:1;  grid-row:2;
         height:50vh ;
         width: 100%;
-    
+
         background: #FFC6C6;
-        margin-right: -120px;
+        
         mix-blend-mode: exclusion;
+        
+    }
+    .derInicio{
+        display: grid;
+        grid-column:1;  grid-row:1;
+        height:50vh ;
+        width: 100%;
+    
+        background: #00ffb3;
+        mix-blend-mode: exclusion;
+        
+    }
+    .centInicio{
+        display: grid;
+        grid-column: 1; grid-row-start:1; grid-row-end:3;
+
+        grid-template-columns:100%;
+        grid-template-rows: 50% 50%;
+        align-items: center;
+        justify-items: center;
+        z-index: 2;
+    
+        height:350px;
+        width: 230px;
+        background-color: black;
+        mix-blend-mode: exclusion;
+        transform: rotate(0deg);
+        
+        animation-name: centro;
+        animation-duration: 120s;
+        animation-iteration-count: infinite;
+        /*animation-timing-function: cubic-bezier(0.23, 1.21, 0.6, 0.63);*/
+        animation-timing-function: cubic-bezier(0.66, 0.65, 0.26, 0.27);
+        
         
     }
     .footer{
