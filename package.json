@@ -1,0 +1,25 @@
+{
+  "name": "waterwarner",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/fjuzCSfFmSd3NKPdqmvopo/Carpitas?node-id=0%3A1\r # GitHub Pages   🌏:\r  https://dani78w.github.io/Water-Warner-/",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dani78w/Water-Warner-.git"
+  },
+  "keywords": [
+    "hola1234"
+  ],
+  "author": "Dani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dani78w/Water-Warner-/issues"
+  },
+  "homepage": "https://github.com/dani78w/Water-Warner-#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
